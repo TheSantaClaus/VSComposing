@@ -10,7 +10,7 @@
 
 @implementation NSArray (VSComposing)
 
-- (NSString *)composedString
+- (NSString *)composedContent
 {
     NSMutableString *composedString = [NSMutableString new];
     

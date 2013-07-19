@@ -10,6 +10,6 @@
 
 @interface NSArray (VSComposing)
 
-- (NSString *)composedString;
+- (NSString *)composedContent;
 
 @end
