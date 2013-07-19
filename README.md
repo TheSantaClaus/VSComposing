@@ -1,7 +1,7 @@
 VSStringComposing
 ===============
 
-VSStringComposing is a simple category of NSString which allows you easily compose NSString objects.
+VSStringComposing is a simple set of Objective-C categories which allows you easily compose NSString objects.
 
 Useing example :
 ```objective-c
