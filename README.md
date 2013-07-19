@@ -12,7 +12,7 @@ Add `pod 'VSStringComposing'` to your Podfile.
 ### Manually
 
 * Drag the `VSComposing` folder into your project.
-* Import `<VSComposing/NSString+VSComposing.h>` or `<VSComposing/NSArray+VSComposing.h>` headers
+* Import `<VSStringComposing/NSString+VSComposing.h>` or `<VSStringComposing/NSArray+VSComposing.h>` headers
 
 ##Example Usage
 
