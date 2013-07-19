@@ -12,13 +12,7 @@
 
 - (NSString *)composedContent
 {
-    NSMutableString *composedString = [NSMutableString new];
-    
-    for (NSObject *object in self) {
-        [composedString appendString:object.description];
-    }
-    
-    return [NSString stringWithString:composedString];
+    return [self componentsJoinedByString:@""];
 }
 
 @end

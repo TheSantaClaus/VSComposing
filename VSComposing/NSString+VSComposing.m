@@ -12,13 +12,7 @@
 
 + (NSString *)composeFromArray:(NSArray *)objects
 {
-    NSMutableString *mutableString = [NSMutableString new];
-    
-    for (NSObject *object in objects) {
-        [mutableString appendString:object.description];        
-    }
-    
-    return [NSString stringWithString:mutableString];
+    return [NSString stringWithString:[objects componentsJoinedByString:@""]];
 }
 
 @end
