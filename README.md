@@ -1,4 +1,5 @@
-NSStringCompose
+VSStringComposing
 ===============
 
-Easy compose of NSString objects
+VSStringComposing is a simple category of NSString which allows you easily compose NSString objects.
+
