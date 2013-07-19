@@ -10,7 +10,7 @@ NSString *firstName   = @"Volodymyr";
 NSString *lastName    = @"Shevchenko";
 NSNumber *yearOfBirth = @(1989);
         
-NSString *composedString = [NSString composeFromArray:@[@"My name is ", firstName, @" ", lastName, @". I was born in ", yearOfBirth, @"."]];
+NSString *composedString = @[@"My name is ", firstName, @" ", lastName, @". I was born in ", yearOfBirth, @"."].composedString;
         
 NSLog(@"%@", composedString);
 // result : My name is Volodymyr Shevchenko. I was born in 1989.
