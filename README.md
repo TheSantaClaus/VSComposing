@@ -3,7 +3,7 @@ VSStringComposing
 
 VSStringComposing is a simple category of NSString which allows you easily compose NSString objects.
 
-Useing examole :
+Useing example :
 
 ```objective-c
 NSString *firstName   = @"Volodymyr";
