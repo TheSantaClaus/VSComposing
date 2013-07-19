@@ -3,7 +3,19 @@ VSStringComposing
 
 VSStringComposing is a simple set of Objective-C categories which allows you easily compose NSString objects.
 
-Useing example :
+## Installation
+
+### From CocoaPods
+
+Add `pod 'VSStringComposing'` to your Podfile.
+
+### Manually
+
+* Drag the `VSComposing` folder into your project.
+* Import `<VSComposing/NSString+VSComposing.h>` or `<VSComposing/NSArray+VSComposing.h>` headers
+
+##Example Usage
+
 ```objective-c
 NSString *firstName   = @"Volodymyr";
 NSString *lastName    = @"Shevchenko";
